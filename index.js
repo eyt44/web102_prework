@@ -178,3 +178,16 @@ firstGameContainer.appendChild(firstGameElement);
 const secondGameElement = document.createElement("p");
 secondGameElement.textContent = secondGame.name;
 secondGameContainer.appendChild(secondGameElement);
+
+/************************************************************************************
+ * Extra: Search bar
+ */
+
+const searchBar = document.getElementById("search-bar");
+
+searchBar.addEventListener("input", () => {
+    const query = searchBar.value.toLowerCase();
+    const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(query));
+    deleteChildElements(gamesContainer);
+    addGamesToPage(filteredGames);
+})
