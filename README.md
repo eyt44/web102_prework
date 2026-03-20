@@ -26,10 +26,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/AABI3JL' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -38,6 +38,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+When adding the search bar, I had to move the filter buttons around to line up nicely. I would like to make the jumps from section to section smoother when using the navbar.
 
 ## License
 
